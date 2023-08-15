@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.react-chatbot-kit-chat-inner-container {
+  flex: 1;
+  overflow-y: auto; /* Add vertical scrollbar if needed */
+}
+.react-chatbot-kit-chat-container {
+  position: fixed;
+  top: 10%;
+  bottom: 0;
+  left: 30%;
+  transform: translateX(-50%);
+  width: 100px; /* Set the desired width for the chatbot */
+  background-color: white; /* Adjust the background color as needed */
+  display: flex;
+  flex-direction: column;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
